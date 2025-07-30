@@ -56,9 +56,6 @@ def submit_score(url: str):
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "keep-alive",
         "Content-Type": "application/json;charset=UTF-8",
-        # "Cookie": "_gcl_au=1.1.211637651.1750818380; _ga=GA1.3.522634058.1725268615; locale=zh-CN; _ga_VPYRHN104D=GS2.1.s1750818380$o4$g1$t1750818461$j60$l0$h0; Hm_lvt_1ff3673d088290dff716d51fd23686e5=1752714163,1752733323,1752733622,1752733711; Hm_lpvt_1ff3673d088290dff716d51fd23686e5=1752733711; HMACCOUNT=7316F907D2FCEB97",
-        # "Host": "m.dj.cnpc.com.cn",
-        # "Origin": "https://m.dj.cnpc.com.cn",
         "Host": params["netloc"][0],  # 从URL中提取的Host
         "Origin": f"{params['scheme'][0]}://{params['netloc'][0]}",  # 从URL中提取的Origin
         "Referer": url,  # 使用传入的完整URL作为 Referer
@@ -133,9 +130,6 @@ def get_user_info(url: str):
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "keep-alive",
         "Content-Type": "application/json;charset=UTF-8",
-        # "Cookie": "_gcl_au=1.1.211637651.1750818380; _ga=GA1.3.522634058.1725268615; locale=zh-CN; _ga_VPYRHN104D=GS2.1.s1750818380$o4$g1$t1750818461$j60$l0$h0; Hm_lvt_1ff3673d088290dff716d51fd23686e5=1752714163,1752733323,1752733622,1752733711; Hm_lpvt_1ff3673d088290dff716d51fd23686e5=1752733711; HMACCOUNT=7316F907D2FCEB97",
-        # "Host": "m.dj.cnpc.com.cn",
-        # "Origin": "https://m.dj.cnpc.com.cn",
         "Host": params["netloc"][0],  # 从URL中提取的Host
         "Origin": f"{params['scheme'][0]}://{params['netloc'][0]}",  # 从URL中提取的Origin
         "Referer": url,  # 使用传入的完整URL作为 Referer
@@ -189,9 +183,6 @@ def get_testname(url: str):
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "keep-alive",
         "Content-Type": "application/json;charset=UTF-8",
-        # "Cookie": "_gcl_au=1.1.211637651.1750818380; _ga=GA1.3.522634058.1725268615; locale=zh-CN; _ga_VPYRHN104D=GS2.1.s1750818380$o4$g1$t1750818461$j60$l0$h0; Hm_lvt_1ff3673d088290dff716d51fd23686e5=1752714163,1752733323,1752733622,1752733711; Hm_lpvt_1ff3673d088290dff716d51fd23686e5=1752733711; HMACCOUNT=7316F907D2FCEB97",
-        # "Host": "m.dj.cnpc.com.cn",
-        # "Origin": "https://m.dj.cnpc.com.cn",
         "Host": params["netloc"][0],  # 从URL中提取的Host
         "Origin": f"{params["scheme"][0]}://{params["netloc"][0]}",  # 从URL中提取的Origin
         "Referer": url,  # 使用传入的完整URL作为 Referer
